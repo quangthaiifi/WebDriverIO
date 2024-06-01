@@ -1,7 +1,7 @@
 const { expect } = require('@wdio/globals')
 const HomePage = require('../pageobjects/HomePage')
-describe('My Login application', () => {
-    it('should login with valid credentials', async () => {
+describe('Looking for flights', () => {
+    it('Looking for flights', async () => {
         HomePage.open();
         browser.setTimeout(3000)
         await HomePage.close_fancybox()
