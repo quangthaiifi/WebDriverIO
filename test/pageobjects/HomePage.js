@@ -111,7 +111,7 @@ class HomePage extends Page{
         }
     let number_passenge_displayed= await this.flight_passenger.getValue()
     console.log("number_passenge_displayed"+number_passenge_displayed)
-    // expect(number_passenge_displayed).toContain(total_passenger.toString())
+    expect(number_passenge_displayed).toContain(total_passenger.toString())
     console.log("End select_number_passenger")
 
 }
